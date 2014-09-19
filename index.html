@@ -2,14 +2,26 @@
 <html>
 <head>
 	<title>Marcus Klein's GitHub</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/octicons/octicons.css" type="text/css">
 
 	<style type="text/css">
+		.octi {
+			width: 16px;
+			text-align: center;
+			color: black;
+		}
+
 		body {
 			margin: 0;
+			/*font-family: 'Open Sans', sans-serif;*/
+			font-weight: 300;
+			text-decoration: none;
 		}
 
 		#exe {
 			text-align: center;
+			margin-top: 50%;
 			margin: auto;
 			width: 200px;
 			height: 50px;
@@ -18,14 +30,14 @@
 		#shared {
 			text-align: center;
 			margin: auto;
-			width: 100px;
+			width: 200px;
 			height: 50px;
 		}
 
 		#personal {
 			text-align: center;
 			margin: auto;
-			width: 100px;
+			width: 200px;
 			height: 50px;
 		}
 
@@ -34,10 +46,10 @@
 </head>
 <body>
 	<div id="exe">
-		<a href="http://executable.co">executable.co</a>
+		<span class="octicon octicon-flame"></span><a href="http://executable.co">executable.co</a>
 	</div>
 	<div id="shared">
-		<a href="https://github.com/marcusklein">Shared GitHub</a>
+		<span class="mega-octicon octicon-briefcase"></span><a href="https://github.com/marcusklein">Shared GitHub</a>
 	</div>	
 	<div id="personal">
 		<a href="https://github.com/monodromy">Private GitHub</a>

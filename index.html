@@ -3,56 +3,62 @@
 <head>
 	<title>Marcus Klein's GitHub</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/octicons/octicons.css" type="text/css">
+	<link rel="stylesheet" href="octicons/octicons.css" type="text/css">
 
 	<style type="text/css">
-		.octi {
-			width: 16px;
+
+		.text {
 			text-align: center;
-			color: black;
+			margin: auto;
+			width: 600px;
+			font-size: 32px;
+		}
+
+		.small_text {
+			font-size: 16px;
 		}
 
 		body {
 			margin: 0;
-			/*font-family: 'Open Sans', sans-serif;*/
+			font-family: 'Open Sans', sans-serif;
 			font-weight: 300;
 			text-decoration: none;
 		}
 
 		#exe {
-			text-align: center;
-			margin-top: 50%;
-			margin: auto;
-			width: 200px;
-			height: 50px;
+			margin-top: 10%;
 		}
 
 		#shared {
-			text-align: center;
-			margin: auto;
-			width: 200px;
-			height: 50px;
 		}
 
 		#personal {
-			text-align: center;
-			margin: auto;
-			width: 200px;
-			height: 50px;
 		}
 
 	</style>
 
 </head>
 <body>
-	<div id="exe">
-		<span class="octicon octicon-flame"></span><a href="http://executable.co">executable.co</a>
+	<div id="exe" class="text">
+		<p>
+			<span class="mega-octicon octicon-globe"></span><br>
+			<a href="http://executable.co">executable.co</a><br>
+			<span class="small_text">My personal webspace where you will find some of my current live projects.</span>
+		</p>
 	</div>
-	<div id="shared">
-		<span class="mega-octicon octicon-briefcase"></span><a href="https://github.com/marcusklein">Shared GitHub</a>
+	<div id="shared" class="text">
+		<p>
+			<span class="mega-octicon octicon-briefcase"></span><br>
+			<a href="https://github.com/marcusklein">Shared GitHub</a><br>
+			<span class="small_text">My shared githib, where I contribute to already created projects.</span>
+		</p>
 	</div>	
-	<div id="personal">
-		<a href="https://github.com/monodromy">Private GitHub</a>
+	<div id="personal" class="text">
+	<p>
+		<span class="mega-octicon octicon-mark-github"></span><br>
+		<a href="https://github.com/monodromy">Private GitHub</a><br>
+		<span class="small_text">My private Github, where I keep all my own projects. Fork away!</span>
+	</p>
 	</div>
 </body>
 </html>
